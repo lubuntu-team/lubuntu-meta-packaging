@@ -1,4 +1,4 @@
-lubuntu-meta (1.6) UNRELEASED; urgency=medium
+lubuntu-meta (1.5) UNRELEASED; urgency=medium
 
   * Add Vcs-* lines to reflect importing of the packaging into Git.
   * Remove gilir from Uploaders as he is no longer a member of the team.
@@ -15,7 +15,7 @@ lubuntu-meta (1.6) UNRELEASED; urgency=medium
   * Removed sddm-theme-lubuntu-chooser from desktop.
   * Removed update-notifier from desktop.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 09 Jul 2018 19:47:46 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 09 Jul 2018 19:52:31 -0500
 
 lubuntu-meta (1.4) cosmic; urgency=medium
 
