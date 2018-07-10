@@ -6,6 +6,8 @@ Uploaders: Simon Quigley <tsimonq2@ubuntu.com>,
            Julien Lavergne <gilir@ubuntu.com>
 Standards-Version: 4.1.4
 Build-Depends: debhelper (>= 11), germinate (>= 1.18)
+Vcs-Browser: https://phab.lubuntu.me/source/lubuntu-meta/
+Vcs-Git: https://phab.lubuntu.me/source/lubuntu-meta.git
 
 Package: lubuntu-desktop
 Architecture: any

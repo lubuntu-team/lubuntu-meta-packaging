@@ -1,3 +1,9 @@
+lubuntu-meta (1.5) UNRELEASED; urgency=medium
+
+  * Add Vcs-* lines to reflect importing of the packaging into Git.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 09 Jul 2018 19:23:38 -0500
+
 lubuntu-meta (1.4) cosmic; urgency=medium
 
   * Move Ubuntu seed to Git.
