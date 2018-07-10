@@ -38,8 +38,12 @@ libsasl2-modules
 libu2f-udev
 lubuntu-artwork
 lubuntu-default-settings
-lxqt
+lxqt-about
+lxqt-admin
 lxqt-core
+lxqt-openssh-askpass
+lxqt-powermanagement
+lxqt-sudo
 mobile-broadband-provider-info
 modemmanager
 muon
@@ -52,6 +56,7 @@ openbox
 openprinting-ppds
 oxygen-icon-theme
 papirus-icon-theme
+pavucontrol-qt
 pcmanfm-qt
 pinentry-qt
 plasma-discover
@@ -70,7 +75,6 @@ quassel
 rfkill
 screengrab
 sddm
-sddm-theme-lubuntu-chooser
 skanlite
 smplayer
 smplayer-l10n
@@ -83,7 +87,6 @@ ubuntu-drivers-common
 ubuntu-mono
 ubuntu-release-upgrader-qt
 unzip
-update-notifier
 usb-creator-kde
 usb-modeswitch
 whoopsie
