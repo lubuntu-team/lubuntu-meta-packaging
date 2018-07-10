@@ -1,0 +1,22 @@
+Source: lubuntu-meta
+Section: metapackages
+Priority: optional
+Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
+Uploaders: Simon Quigley <tsimonq2@ubuntu.com>,
+           Julien Lavergne <gilir@ubuntu.com>
+Standards-Version: 4.1.4
+Build-Depends: debhelper (>= 11), germinate (>= 1.18)
+
+Package: lubuntu-desktop
+Architecture: any
+Depends: ${germinate:Depends}, ${misc:Depends}
+Recommends: ${germinate:Recommends}
+Conflicts: lubuntu-gtk-desktop (<< 1.0), lubuntu-qt-desktop (<< 1.0), lubuntu-gtk-core, lubuntu-qt-core
+Replaces: lubuntu-gtk-desktop (<< 1.0), lubuntu-qt-desktop (<< 1.0), lubuntu-gtk-core, lubuntu-qt-core
+Provides: lubuntu-gtk-desktop, lubuntu-qt-desktop, lubuntu-gtk-core, lubuntu-qt-core
+Description: Lubuntu Desktop environment
+ This metapackage depends on all components which make up the Lubuntu Desktop.
+ .
+ It is also used to help ensure proper upgrades, but it can be safely removed
+ if you want to remove some applications installed by default.
+

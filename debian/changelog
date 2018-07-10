@@ -1,0 +1,1336 @@
+lubuntu-meta (1.4) cosmic; urgency=medium
+
+  * Move Ubuntu seed to Git.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 29 May 2018 21:45:08 -0500
+
+lubuntu-meta (1.3) cosmic; urgency=medium
+
+  * Refreshed dependencies
+  * Added plymouth-theme-lubuntu-logo to desktop
+  * Added plymouth-theme-lubuntu-text to desktop
+  * Removed lubuntu-icon-theme from desktop
+  * Removed plymouth-theme-lubuntu-next-logo from desktop
+  * Removed plymouth-theme-lubuntu-next-text from desktop
+  * Removed qlubuntu-default-session from desktop
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 16 May 2018 00:25:51 -0500
+
+lubuntu-meta (1.2) cosmic; urgency=medium
+
+  * Stop failing to build on s390x by actually creating s390x files.
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Fri, 11 May 2018 16:48:15 -0600
+
+lubuntu-meta (1.1) cosmic; urgency=medium
+
+  * Roll lubuntu-core into lubuntu-desktop, and start using desktop-common
+    now that we follow recommends and don't have a reason to be different.
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Fri, 11 May 2018 14:55:59 -0600
+
+lubuntu-meta (1.0) cosmic; urgency=medium
+
+  * Lubuntu Next is now Lubuntu, and the old Lubuntu no longer exists.
+    Rearrange the packaging, set Conflicts/Replaces, and generally adjust for
+    this.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 10 May 2018 21:25:05 -0500
+
+lubuntu-meta (0.94) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Added gdebi to desktop, desktop-gtk
+  * Added ubuntu-report to core-gtk-recommends, core-qt-recommends, core-
+    recommends
+  * Removed nomacs from desktop-qt [ppc64el]
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 12 Apr 2018 22:26:10 -0500
+
+lubuntu-meta (0.93) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Added apport-gtk to core, core-gtk
+  * Added falkon to desktop-qt [amd64 arm64 armhf i386]
+  * Added fonts-noto-color-emoji to desktop-gtk-recommends, desktop-
+    recommends
+  * Added ttf-ancient-fonts-symbola to desktop-qt-recommends
+  * Removed apport-gtk from desktop
+  * Removed qupzilla from desktop-qt [amd64 arm64 armhf i386]
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 18 Mar 2018 22:33:16 -0500
+
+lubuntu-meta (0.92) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Added avahi-daemon to desktop, desktop-gtk, desktop-qt
+  * Added fonts-indic to desktop-gtk-recommends, desktop-qt-recommends,
+    desktop-recommends
+  * Added fonts-kacst-one to desktop-gtk-recommends, desktop-qt-
+    recommends, desktop-recommends
+  * Added fonts-khmeros-core to desktop-gtk-recommends, desktop-qt-
+    recommends, desktop-recommends
+  * Added fonts-lao to desktop-gtk-recommends, desktop-qt-recommends,
+    desktop-recommends
+  * Added fonts-liberation to desktop-gtk-recommends, desktop-qt-
+    recommends, desktop-recommends
+  * Added fonts-lklug-sinhala to desktop-gtk-recommends, desktop-qt-
+    recommends, desktop-recommends
+  * Added fonts-sil-abyssinica to desktop-gtk-recommends, desktop-qt-
+    recommends, desktop-recommends
+  * Added fonts-sil-padauk to desktop-gtk-recommends, desktop-qt-
+    recommends, desktop-recommends
+  * Added fonts-thai-tlwg to desktop-gtk-recommends, desktop-qt-
+    recommends, desktop-recommends
+  * Added fonts-tibetan-machine to desktop-gtk-recommends, desktop-qt-
+    recommends, desktop-recommends
+  * Added fwupd to desktop, desktop-gtk, desktop-qt
+  * Added htop to desktop-gtk-recommends, desktop-qt-recommends, desktop-
+    recommends
+  * Added ttf-ubuntu-font-family to desktop-gtk-recommends, desktop-qt-
+    recommends, desktop-recommends
+  * Removed nm-tray from desktop-qt-recommends
+  * Moved fonts-noto-cjk to desktop-gtk-recommends, desktop-qt-
+    recommends, desktop-recommends
+  * Moved neofetch to desktop-gtk-recommends, desktop-qt-recommends,
+    desktop-recommends
+  * Moved pastebinit to desktop-gtk-recommends, desktop-qt-recommends,
+    desktop-recommends
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 21 Feb 2018 18:40:33 -0600
+
+lubuntu-meta (0.91) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Added pastebinit to desktop, desktop-gtk, desktop-qt
+  * Added nm-tray to desktop-qt
+  * Removed network-manager-gnome from desktop-qt
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 15 Feb 2018 19:12:48 -0600
+
+lubuntu-meta (0.90) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Added arc-theme to desktop-qt
+  * Added ark to desktop-qt
+  * Added bluedevil to desktop-qt
+  * Added featherpad to desktop-qt
+  * Added kcalc to desktop-qt
+  * Added papirus-icon-theme to desktop-qt
+  * Added plymouth-theme-lubuntu-logo to desktop-gtk
+  * Added plymouth-theme-lubuntu-next-logo to core-qt, desktop-qt
+  * Added plymouth-theme-lubuntu-next-text to core-qt, desktop-qt
+  * Added plymouth-theme-lubuntu-text to desktop-gtk
+  * Added skanlite to desktop-qt
+  * Removed juffed from desktop-qt
+  * Removed lubuntu-gtk-core from desktop [arm64], desktop-gtk [arm64]
+  * Removed lubuntu-gtk-desktop from desktop [arm64]
+  * Removed lubuntu-qt-core from desktop-qt [arm64]
+  * Removed plymouth-theme-lubuntu-logo from core-qt
+  * Removed plymouth-theme-lubuntu-text from core-qt
+  * Removed xarchiver from desktop-qt
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 05 Feb 2018 16:34:40 -0600
+
+lubuntu-meta (0.89) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Added lubuntu-gtk-core to desktop [arm64], desktop-gtk [arm64]
+  * Added lubuntu-gtk-desktop to desktop [arm64]
+  * Added lubuntu-qt-core to desktop-qt [arm64]
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 23 Jan 2018 20:01:38 -0600
+
+lubuntu-meta (0.88) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Add arm64 packages for future image opportunities
+  * Added neofetch to desktop, desktop-gtk, desktop-qt
+  * Removed gdebi-kde from desktop-qt (LP: #1743877)
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 17 Jan 2018 16:44:09 -0600
+
+lubuntu-meta (0.87) bionic; urgency=medium
+
+  * Modernize packaging.
+  * Refreshed dependencies.
+  * Added firefox to desktop [ppc64el], desktop-gtk [ppc64el].
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 27 Dec 2017 19:56:18 -0600
+
+lubuntu-meta (0.86) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Added lxqt to desktop-qt [ppc64el]
+  * Added lxqt-core to core-qt [ppc64el], desktop-qt [ppc64el]
+  * Removed lxqt-about from desktop-qt [ppc64el]
+  * Removed lxqt-admin from desktop-qt [ppc64el]
+  * Removed lxqt-common from core-qt [ppc64el], desktop-qt [ppc64el]
+  * Removed lxqt-config from desktop-qt [ppc64el]
+  * Removed lxqt-globalkeys from desktop-qt [ppc64el]
+  * Removed lxqt-notificationd from desktop-qt [ppc64el]
+  * Removed lxqt-openssh-askpass from desktop-qt [ppc64el]
+  * Removed lxqt-panel from core-qt [ppc64el], desktop-qt [ppc64el]
+  * Removed lxqt-policykit from desktop-qt [ppc64el]
+  * Removed lxqt-powermanagement from desktop-qt [ppc64el]
+  * Removed lxqt-qtplugin from desktop-qt [ppc64el]
+  * Removed lxqt-runner from desktop-qt [ppc64el]
+  * Removed lxqt-session from core-qt [ppc64el], desktop-qt [ppc64el]
+  * Removed lxqt-sudo from desktop-qt [ppc64el]
+  * Removed pavucontrol-qt from desktop-qt [ppc64el]
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 25 Nov 2017 12:40:08 -0600
+
+lubuntu-meta (0.85) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Removed fonts-nanum from desktop, desktop-gtk, desktop-qt
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 09 Nov 2017 20:05:17 -0600
+
+lubuntu-meta (0.84.1) bionic; urgency=medium
+
+  * Whoops, accidentally uploaded with temporary local revision. Revert...
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 04 Nov 2017 16:54:19 -0500
+
+lubuntu-meta (0.84) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Removed snapd from desktop, desktop-gtk, desktop-qt
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 04 Nov 2017 16:52:26 -0500
+
+lubuntu-meta (0.83) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Removed firefox from desktop [ppc64el], desktop-gtk [ppc64el]
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@ubuntu.com>  Mon, 25 Sep 2017 11:07:29 -0400
+
+lubuntu-meta (0.82) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Added lxpolkit to desktop, desktop-gtk
+  * Added qttranslations5-l10n to desktop-qt
+  * Added qupzilla to desktop-qt [arm64]
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 03 Sep 2017 16:05:40 -0500
+
+lubuntu-meta (0.81) artful; urgency=high
+
+  * Refreshed dependencies
+  * Added network-manager to desktop-qt
+  * Added network-manager-gnome to desktop-qt
+  * Added xserver-xorg-video-qxl to core, core-gtk, core-qt
+  * Removed dhcpcd-qt from desktop-qt
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 24 Aug 2017 17:12:04 -0500
+
+lubuntu-meta (0.80) artful; urgency=high
+
+  * Refreshed dependencies
+  * Added network-manager-gnome to desktop, desktop-gtk
+  * Removed dhcpcd-gtk from desktop, desktop-gtk
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 27 Jul 2017 11:39:03 -0500
+
+lubuntu-meta (0.79) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Added dhcpcd-qt to desktop-qt
+  * Added kerneloops to desktop, desktop-gtk, desktop-qt
+  * Removed gnome-time-admin from desktop, desktop-gtk
+  * Removed kerneloops-daemon from desktop, desktop-gtk, desktop-qt
+  * Removed network-manager from desktop-qt
+  * Removed network-manager-gnome from desktop-qt
+  * Removed qupzilla from desktop-qt [arm64 ppc64el]
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Wed, 19 Jul 2017 18:16:05 -0400
+
+lubuntu-meta (0.78) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Added libqt5svg5 to core-qt
+  * Added oxygen-icon-theme to core-qt, desktop-qt
+
+ -- Bhavani Shankar <bhavi@ubuntu.com>  Mon, 19 Jun 2017 16:52:46 +0530
+
+lubuntu-meta (0.77) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Added lubuntu-core to desktop [amd64 armhf i386], desktop-gtk [amd64
+    armhf i386], desktop-qt [amd64 armhf i386]
+  * Added lubuntu-gtk-core to desktop [amd64 armhf i386], desktop-gtk
+    [amd64 armhf i386]
+  * Added lubuntu-gtk-desktop to desktop [amd64 armhf i386]
+  * Added lubuntu-qt-core to desktop-qt [amd64 armhf i386]
+  * Added network-manager to desktop-qt
+  * Added network-manager-gnome to desktop-qt
+
+ -- Mathieu Trudel-Lapierre <cyphermox@ubuntu.com>  Fri, 09 Jun 2017 21:38:58 -0700
+
+lubuntu-meta (0.76) artful; urgency=medium
+
+  * Add metapackages for gtk and qt-core seeds.
+  * Refreshed dependencies
+  * Added dhcpcd-gtk to desktop, desktop-gtk
+  * Added gnome-mpv to desktop, desktop-gtk
+  * Added pavucontrol-qt to desktop-qt
+  * Removed gnome-mplayer from desktop, desktop-gtk
+  * Removed lubuntu-core from desktop [amd64 armhf i386], desktop-gtk
+    [amd64 armhf i386], desktop-qt [amd64 armhf i386]
+  * Removed network-manager-gnome from desktop, desktop-gtk
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 01 May 2017 18:26:23 +0200
+
+lubuntu-meta (0.75) zesty; urgency=medium
+
+  * Remove powerpc metapackages.
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Mon, 20 Mar 2017 17:59:02 -0600
+
+lubuntu-meta (0.74) zesty; urgency=medium
+
+  * Refreshed dependencies
+  * Added firefox to desktop [ppc64el]
+  * Added printer-driver-gutenprint to desktop, desktop-qt
+  * Added screengrab to desktop-qt
+  * Added system-config-printer to desktop
+  * Added xserver-xorg-input-synaptics to core (LP: #1667128)
+
+ -- Mathieu Trudel-Lapierre <cyphermox@ubuntu.com>  Wed, 22 Feb 2017 22:58:22 -0500
+
+lubuntu-meta (0.73) zesty; urgency=medium
+
+  * Switch to zesty seeds.
+  * Refreshed dependencies
+  * Added lxhotkey-gtk to desktop
+  * Added lxhotkey-plugin-openbox to desktop
+  * Removed pm-utils from desktop, desktop-qt (LP: #1646036)
+  * Removed system-config-printer-gnome from desktop
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Wed, 30 Nov 2016 10:51:00 +0100
+
+lubuntu-meta (0.72) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Removed firefox from desktop [powerpc ppc64el]
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Tue, 11 Oct 2016 21:32:06 -0600
+
+lubuntu-meta (0.71) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Removed gdebi from desktop
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Tue, 16 Aug 2016 18:08:45 -0600
+
+lubuntu-meta (0.70) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Added audacious to desktop
+  * Added indicator-sound-gtk2 to desktop
+  * Added plasma-discover to desktop-qt
+  * Removed muon-discover from desktop-qt
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Tue, 16 Aug 2016 02:44:16 -0600
+
+lubuntu-meta (0.69) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Added transmission-gtk to desktop
+  * Removed muon-updater from desktop-qt
+  * Removed transmission from desktop
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Mon, 08 Aug 2016 11:07:28 +0300
+
+lubuntu-meta (0.68) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Added gnome-software to desktop
+  * Removed audacious from desktop [amd64 arm64 armhf i386 ppc64el],
+    desktop-qt [amd64 arm64 armhf i386 ppc64el]
+  * Removed audacious-plugins from desktop [amd64 arm64 armhf i386
+    ppc64el], desktop-qt [amd64 arm64 armhf i386 ppc64el]
+  * Removed cmst from desktop-qt
+  * Removed lubuntu-software-center from desktop
+  * Removed python3-aptdaemon.pkcompat from desktop, desktop-qt
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 28 Jul 2016 15:03:48 +0200
+
+lubuntu-meta (0.67) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Added fwupdate to desktop
+  * Added fwupdate-signed to desktop
+  * Added pavucontrol to desktop
+  * Added pulseaudio to desktop
+  * Added snapd to desktop
+  * Added ubuntu-mono to core
+  * Removed alsa-base from desktop
+  * Removed alsa-utils from desktop
+  * Removed compton from desktop
+  * Removed ntp from desktop
+  * Removed light-locker-settings from desktop
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 04 Jul 2016 22:21:30 +0200
+
+lubuntu-meta (0.66) yakkety; urgency=medium
+
+  * Add desktop-qt seed with lubuntu-qt-desktop binary
+  * Refreshed dependencies
+  * Restructure seeds
+   - Depends on standart seed, to have more control on recommends / depends.
+   - Add -gtk, -qt and common seeds to share most of the depends.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Fri, 20 May 2016 16:46:09 +0200
+
+lubuntu-meta (0.65) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added fwupdate-signed to core-recommends [amd64 arm64 armhf i386]
+  * Added snapd to core-recommends
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Tue, 19 Apr 2016 11:46:33 -0600
+
+lubuntu-meta (0.64) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added alsamixergui to desktop
+  * Added fonts-nanum to desktop
+  * Added fonts-noto-cjk to desktop
+  * Added fwupd to core-recommends
+  * Added fwupdate to core-recommends [amd64 arm64 armhf i386]
+  * Removed gnome-icon-theme-symbolic from desktop
+  * Removed libpam-systemd from core
+  * Removed printer-driver-gutenprint from desktop
+  * Removed ttf-indic-fonts-core from core-recommends
+  * Removed xterm from desktop
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Sun, 03 Apr 2016 02:11:42 -0600
+
+lubuntu-meta (0.63) xenial; urgency=medium
+
+  * desktop: Replace cups-driver-gutenprint with printer-driver-gutenprint.
+
+ -- Matthias Klose <doko@ubuntu.com>  Fri, 12 Feb 2016 16:46:42 +0100
+
+lubuntu-meta (0.62) wily; urgency=medium
+
+  * Refreshed dependencies
+  * Added fcitx to desktop
+  * Added fcitx-config-gtk2 to desktop
+  * Added fcitx-frontend-gtk2 to desktop
+  * Added fcitx-ui-classic to desktop
+  * Added lightdm-gtk-greeter-settings to desktop
+  * Removed apturl from desktop
+  * Removed ibus from desktop 
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 31 Aug 2015 22:05:37 +0200
+
+lubuntu-meta (0.61) wily; urgency=medium
+
+  * Refreshed dependencies
+  * Removed libxp6 from core
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Tue, 18 Aug 2015 20:29:46 +0200
+
+lubuntu-meta (0.60) wily; urgency=medium
+
+  * Refreshed dependencies and switch to wily
+  * Added pinentry-gtk2 to desktop (LP: #1473952)
+  * Removed bluez-alsa from core-recommends
+  * Removed python-gudev from desktop
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Sun, 16 Aug 2015 14:18:02 -0600
+
+lubuntu-meta (0.59) vivid; urgency=medium
+
+  * Refreshed dependencies (LP: #1441843)
+  * Added xserver-xorg-input-all to core
+  * Added xserver-xorg-video-all to core
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Tue, 14 Apr 2015 15:52:41 -0600
+
+lubuntu-meta (0.58) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Added fonts-guru to core-recommends
+  * Removed ttf-punjabi-fonts from core-recommends
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Tue, 17 Mar 2015 07:54:45 -0700
+
+lubuntu-meta (0.57) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Removed ubuntu-extras-keyring from core [amd64 armhf i386 powerpc] (LP: #1409555)
+
+ -- Dimitri John Ledkov <dimitri.j.ledkov@linux.intel.com>  Tue, 13 Jan 2015 01:47:26 +0000
+
+lubuntu-meta (0.56) vivid; urgency=medium
+
+  * update.cfg: Switch to vivid.
+
+  * Refreshed dependencies
+  * Added printer-driver-brlaser to core-recommends [amd64 armhf i386
+    powerpc]
+  * Added python3-aptdaemon.pkcompat to desktop [amd64 armhf i386
+    powerpc]
+  * Added ttf-ancient-fonts-symbola to core-recommends [amd64 armhf i386
+    powerpc]
+  * Added xfce4-power-manager-plugins to desktop [amd64 armhf i386
+    powerpc]
+  * Removed abiword from desktop [powerpc]
+  * Removed audacious from desktop [powerpc]
+  * Removed audacious-plugins from desktop [powerpc]
+  * Removed fonts-droid from desktop [amd64 armhf i386 powerpc]
+  * Removed fonts-liberation from desktop [amd64 armhf i386 powerpc]
+  * Removed fonts-nanum from desktop [amd64 armhf i386 powerpc]
+  * Removed gecko-mediaplayer from desktop [amd64 armhf i386 powerpc]
+  * Removed gnome-accessibility-themes from desktop [amd64 armhf i386
+    powerpc]
+  * Removed gnumeric from desktop [powerpc]
+  * Removed hardinfo from desktop [powerpc]
+  * Removed simple-scan from desktop [powerpc]
+  * Removed xpad from desktop [powerpc]
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sat, 13 Dec 2014 16:06:20 +0100
+
+lubuntu-meta (0.55) trusty; urgency=medium
+
+  * Refreshed dependencies
+  * Added light-locker-settings to desktop
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 12 Mar 2014 23:43:39 +0100
+
+lubuntu-meta (0.54) trusty; urgency=medium
+
+  * update.cfg: Add ppc64el.
+  
+  * Refreshed dependencies
+  * Added fonts-droid to desktop [amd64 arm64 armhf i386 powerpc]
+  * Added libfm-modules to desktop [amd64 arm64 armhf i386 powerpc]
+  * Added memtest86+ to core [amd64 i386]
+  * Added pcmanfm to core [arm64]
+  * Added sylpheed to desktop [arm64]
+  * Added sylpheed-plugins to desktop [arm64]
+  * Removed ttf-wqy-microhei from desktop [amd64 arm64 armhf i386
+    powerpc]
+  * 
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Sat, 08 Mar 2014 00:17:14 +0000
+
+lubuntu-meta (0.53) trusty; urgency=low
+
+  * update.cfg: Switch to trusty.  Add arm64.
+
+  * Refreshed dependencies
+  * Added cups-filters to core-recommends
+  * Added light-locker to desktop
+  * Removed ace-of-penguins from desktop [amd64 armhf i386]
+  * Removed foomatic-filters from core
+  * Removed zram-config from desktop
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Sun, 08 Dec 2013 22:33:25 +0000
+
+lubuntu-meta (0.52) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Removed lxsession-edit from desktop
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 19 Sep 2013 20:00:13 +0200
+
+lubuntu-meta (0.51) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added xul-ext-ubufox to desktop
+  * Removed gir1.2-gudev-1.0 from desktop
+  * Removed pidgin-microblog from desktop
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 29 Aug 2013 01:08:51 +0200
+
+lubuntu-meta (0.50) saucy; urgency=low
+
+  * Upload to saucy. 
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 13 Jun 2013 00:23:40 +0200
+
+lubuntu-meta (0.49) raring; urgency=low
+
+  * Switch to saucy.
+  * Refreshed dependencies
+  * Added firefox to desktop [amd64 armhf i386]
+  * Added fonts-dejavu-core to core
+  * Added gir1.2-gudev-1.0 to desktop
+  * Added gnome-accessibility-themes to desktop
+  * Added libpam-systemd to core
+  * Added lxsession-default-apps to desktop
+  * Added lxsession-logout to desktop
+  * Added python-gudev to desktop
+  * Added usb-creator-gtk to desktop [amd64 i386]
+  * Added zram-config to desktop
+  * Removed chromium-browser from desktop [amd64 armhf i386]
+  * Removed libpam-ck-connector from core
+  * Removed libpam-xdg-support from core
+  * Removed lxkeymap from desktop
+  * Removed ttf-dejavu-core from core
+  * Removed xscreensaver from desktop
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Tue, 11 Jun 2013 23:57:36 +0200
+
+lubuntu-meta (0.48) raring; urgency=low
+
+  * Refreshed dependencies
+  * Added apturl to desktop
+  * Removed ace-of-penguins from desktop [powerpc]
+  * Removed gucharmap from desktop [powerpc]
+  * Removed sylpheed from desktop [powerpc]
+  * Removed sylpheed-doc from desktop [powerpc]
+  * Removed sylpheed-i18n from desktop [powerpc]
+  * Removed sylpheed-plugins from desktop [powerpc]
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 07 Mar 2013 15:36:09 +0100
+
+lubuntu-meta (0.47) raring; urgency=low
+
+  * Refreshed dependencies
+  * Removed linux-headers-generic from desktop [amd64 i386]
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Fri, 21 Dec 2012 19:54:38 -0700
+
+lubuntu-meta (0.46) raring; urgency=low
+
+  * Switch to raring.
+  * Remove old architectures.
+  * Refreshed dependencies
+  * Added ffmpegthumbnailer to desktop
+  * Added lubuntu-default-session to desktop
+  * Removed catfish from desktop
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 25 Nov 2012 00:03:20 +0100
+
+lubuntu-meta (0.45) quantal; urgency=low
+
+  * Refreshed dependencies
+  * Added libmtp-runtime to desktop (LP: #1061430)
+  * Added libpam-xdg-support to core
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Thu, 04 Oct 2012 12:07:53 +0200
+
+lubuntu-meta (0.44) quantal; urgency=low
+
+  * Refreshed dependencies
+  * Added indicator-application-gtk2 to desktop (LP: #1041407)
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sat, 08 Sep 2012 15:51:44 +0200
+
+lubuntu-meta (0.43) quantal; urgency=low
+
+  * Refreshed dependencies
+  * Added fonts-freefont-ttf to core
+  * Removed indicator-application-gtk2 from desktop
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Fri, 24 Aug 2012 01:32:12 +0200
+
+lubuntu-meta (0.42) quantal; urgency=low
+
+  * Refreshed dependencies
+  * Added firefox to desktop [powerpc]
+  * Added ubuntu-release-upgrader-gtk to desktop
+  * Added whoopsie to desktop
+  * Removed jockey-gtk from desktop
+  * Removed midori from desktop [powerpc]
+  * Removed osmo from desktop
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Fri, 27 Jul 2012 17:37:37 +0200
+
+lubuntu-meta (0.41) quantal; urgency=low
+
+  * Refreshed dependencies
+  * Move all recommends to depends, to be consistent with the
+    no-follow-recommends feature of the seed.
+  * Added catfish to desktop
+  * Added fonts-lklug-sinhala to core-recommends
+  * Added fonts-sil-abyssinica to core-recommends
+  * Added indicator-application-gtk2 to desktop
+  * Added midori to desktop [powerpc]
+  * Added xfce4-notifyd to desktop
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 08 Jul 2012 23:42:06 +0200
+
+lubuntu-meta (0.40) quantal; urgency=low
+
+  * Refreshed dependencies
+  * Added xz-utils to desktop-recommends
+  * Removed xz-lzma from desktop-recommends
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Tue, 19 Jun 2012 19:15:44 -0600
+
+lubuntu-meta (0.39) quantal; urgency=low
+
+  * Update to quantal
+  * Set format to 3.0 (native)
+  * Update description.
+  * Refreshed dependencies
+  * Added audacious to desktop-recommends [armel armhf]
+  * Added audacious-plugins to desktop-recommends [armel armhf]
+  * Added fonts-sil-padauk to core-recommends
+  * Added fonts-tibetan-machine to core-recommends
+  * Added gnome-icon-theme-symbolic to desktop
+  * Added libgtk2-perl to desktop
+  * Added ubuntu-drivers-common to core
+  * Added xdg-user-dirs-gtk to desktop
+  * Removed nvidia-common from core [amd64 i386]
+  * Removed ttf-freefont from core
+  * Added gecko-mediaplayer to desktop-recommends [armhf]
+  * Added lubuntu-core to desktop [armhf]
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 30 May 2012 22:41:41 +0200
+
+lubuntu-meta (0.38) precise; urgency=low
+
+  * enable armhf architecture in update.cfg and debian/control
+
+ --  Oliver Grawert <ogra@ubuntu.com>  Fri, 13 Apr 2012 12:01:00 +0200
+
+lubuntu-meta (0.37) precise; urgency=low
+
+  * Refreshed dependencies
+  * Removed audacious from desktop-recommends [armel]
+  * Removed audacious-plugins from desktop-recommends [armel]
+  * Added mobile-broadband-provider-info to desktop-recommends (LP: #975139)
+  * Added usb-modeswitch to desktop-recommends (LP: #979304)
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 12 Apr 2012 22:09:00 +0200
+
+lubuntu-meta (0.36) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added modemmanager to desktop-recommends (LP: #967132)
+  * Added xterm to desktop-recommends (LP: #957749)
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sat, 31 Mar 2012 14:19:03 +0200
+
+lubuntu-meta (0.35) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added blueman to desktop-recommends
+  * Added gecko-mediaplayer to desktop-recommends
+  * Added linux-headers-generic to desktop-recommends [i386]
+  * Added wvdial to desktop [armel]
+  * Removed linux-headers-generic-pae from desktop-recommends [i386]
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Tue, 20 Mar 2012 00:52:06 +0100
+
+lubuntu-meta (0.34) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added dmz-cursor-theme to desktop-recommends (LP: #923344)
+  * Removed dc from core
+  * Removed im-switch from desktop-recommends
+  * Removed lftp from core
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 04 Mar 2012 00:47:44 +0100
+
+lubuntu-meta (0.33) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added fonts-thai-tlwg to core-recommends
+  * Added lightdm to core
+  * Added lightdm-gtk-greeter to core
+  * Added printer-driver-foo2zjs to core-recommends
+  * Added printer-driver-min12xxw to core-recommends
+  * Added printer-driver-pnm2ppa to core
+  * Added printer-driver-ptouch to core-recommends
+  * Added printer-driver-pxljr to core-recommends
+  * Added printer-driver-sag-gdi to core-recommends
+  * Added printer-driver-splix to core-recommends
+  * Removed foo2zjs from core-recommends
+  * Removed lightdm from desktop
+  * Removed lightdm-gtk-greeter from desktop
+  * Removed min12xxw from core-recommends
+  * Removed pnm2ppa from core
+  * Removed ptouch-driver from core-recommends
+  * Removed pxljr from core-recommends
+  * Removed rastertosag-gdi from core-recommends
+  * Removed splix from core-recommends
+  * Removed ttf-thai-tlwg from core-recommends
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 27 Feb 2012 18:39:29 +0100
+
+lubuntu-meta (0.32) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added im-switch to desktop-recommends (LP: #908762)
+  * Added linux-headers-generic-pae to desktop-recommends [i386]
+  * Added lubuntu-software-center to desktop
+  * Added printer-driver-c2esp to core-recommends
+  * Removed c2esp from core-recommends
+  * Removed linux-headers-generic from desktop-recommends [i386]
+  * Removed x-ttcidfont-conf from core
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 01 Feb 2012 20:26:00 +0100
+
+lubuntu-meta (0.31) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added ibus to desktop-recommends (LP: #889384)
+  * Removed gnome-bluetooth from desktop-recommends (LP: #903895)
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 15 Dec 2011 00:09:27 +0100
+
+lubuntu-meta (0.30) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added fonts-kacst-one to core-recommends
+  * Added fonts-khmeros-core to core-recommends
+  * Added fonts-lao to core-recommends
+  * Added fonts-liberation to desktop-recommends
+  * Added fonts-nanum to desktop-recommends
+  * Added fonts-takao-pgothic to core-recommends
+  * Added xz-lzma to desktop-recommends
+  * Removed lzma from desktop-recommends
+  * Removed ttf-kacst-one from core-recommends
+  * Removed ttf-khmeros-core from core-recommends
+  * Removed ttf-lao from core-recommends
+  * Removed ttf-liberation from desktop-recommends
+  * Removed ttf-takao-pgothic from core-recommends
+  * Removed ttf-unfonts-core from desktop-recommends
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 11 Dec 2011 01:07:15 +0100
+
+lubuntu-meta (0.29) precise; urgency=low
+
+  * Update to precise. 
+  * Make core seed depends on desktop-common seed (LP: #884911).
+  * Refreshed dependencies
+  * Added lightdm to desktop
+  * Added lightdm-gtk-greeter to desktop
+  * Added acpi-support to core-recommends [amd64 i386]
+  * Added anacron to core
+  * Added apmd to core [armel]
+  * Added avahi-daemon to core-recommends
+  * Added bc to core
+  * Added bluez to core-recommends
+  * Added bluez-alsa to core-recommends
+  * Added bluez-cups to core-recommends
+  * Added c2esp to core-recommends
+  * Added ca-certificates to core
+  * Added cups to core-recommends
+  * Added cups-bsd to core-recommends
+  * Added cups-client to core-recommends
+  * Added dc to core
+  * Added foo2zjs to core-recommends
+  * Added foomatic-db-compressed-ppds to core
+  * Added foomatic-filters to core
+  * Added genisoimage to core
+  * Added ghostscript-x to core
+  * Added hplip to core-recommends
+  * Added inputattach to core
+  * Added kerneloops-daemon to core-recommends
+  * Added laptop-detect to core-recommends
+  * Added lftp to core
+  * Added libnss-mdns to core-recommends
+  * Added libpam-ck-connector to core
+  * Added libsasl2-modules to core
+  * Added libxp6 to core
+  * Added min12xxw to core-recommends
+  * Added openprinting-ppds to core
+  * Added pbbuttonsd to core [powerpc]
+  * Added pnm2ppa to core
+  * Added ptouch-driver to core-recommends
+  * Added pxljr to core-recommends
+  * Added rastertosag-gdi to core-recommends
+  * Added rfkill to core
+  * Added splix to core-recommends
+  * Added ttf-dejavu-core to core
+  * Added ttf-freefont to core
+  * Added x-ttcidfont-conf to core
+  * Added xkb-data to core
+  * Moved alsa-base to core
+  * Moved alsa-utils to core
+  * Moved nvidia-common to core [amd64 i386]
+  * Moved pcmciautils to core-recommends
+  * Moved policykit-desktop-privileges to core-recommends
+  * Moved ttf-indic-fonts-core to core-recommends
+  * Moved ttf-kacst-one to core-recommends
+  * Moved ttf-khmeros-core to core-recommends
+  * Moved ttf-lao to core-recommends
+  * Moved ttf-punjabi-fonts to core-recommends
+  * Moved ttf-takao-pgothic to core-recommends
+  * Moved ttf-thai-tlwg to core-recommends
+  * Moved ttf-ubuntu-font-family to core-recommends
+  * Moved ubuntu-extras-keyring to core
+  * Moved unzip to core
+  * Moved wireless-tools to core
+  * Moved wpasupplicant to core
+  * Moved zip to core
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Tue, 08 Nov 2011 19:46:59 +0100
+
+lubuntu-meta (0.28) oneiric; urgency=low
+
+  * Refreshed dependencies
+  * Added linux-headers-generic to desktop-recommends [amd64 i386]
+    LP: #858279
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 25 Sep 2011 22:28:36 +0200
+
+lubuntu-meta (0.27) oneiric; urgency=low
+
+  * Refreshed dependencies
+  * Added software-properties-gtk to desktop-recommends (LP: #854244)
+  * Removed wvdial from desktop [armel]
+  * Moved cups-driver-gutenprint to desktop-recommends
+  * Moved evince to desktop-recommends
+  * Moved file-roller to desktop-recommends
+  * Moved gdebi to desktop-recommends
+  * Moved gnome-bluetooth to desktop-recommends
+  * Moved gnome-keyring to desktop-recommends
+  * Moved gnome-system-tools to desktop-recommends
+  * Moved gpicview to desktop-recommends
+  * Moved language-selector-gnome to desktop-recommends
+  * Moved lxkeymap to desktop-recommends
+  * Moved network-manager-gnome to desktop-recommends (LP: #812094)
+  * Moved scrot to desktop-recommends
+  * Moved system-config-printer-gnome to desktop-recommends
+  * Moved xfce4-power-manager to desktop-recommends
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 25 Sep 2011 01:38:26 +0200
+
+lubuntu-meta (0.26) oneiric; urgency=low
+
+  * Refreshed dependencies
+  * Added lxdm to desktop
+  * Added pidgin-microblog to desktop-recommends
+  * Added xfce4-power-manager to desktop
+  * Removed gnome-power-manager from desktop
+  * Removed lightdm from desktop
+  * Removed lightdm-greeter-example-gtk from desktop
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 28 Jul 2011 23:25:32 +0200
+
+lubuntu-meta (0.25) oneiric; urgency=low
+
+  * Update to oneiric
+  * Update branch location for the Lubuntu seed.
+  * Remove multiverse support, not needed
+  * Refreshed dependencies
+  * Added lightdm to desktop
+  * Added lightdm-greeter-example-gtk to desktop
+  * Removed anacron from desktop
+  * Removed chromium-browser-l10n from desktop (LP: #718087)
+  * Removed cron from desktop
+  * Removed gecko-mediaplayer from desktop
+  * Removed gksu from desktop
+  * Removed gnumeric-doc from desktop
+  * Removed logrotate from desktop
+  * Removed lxdm from desktop
+  * Removed mobile-broadband-provider-info from desktop
+  * Removed modemmanager from desktop
+  * Removed pidgin-libnotify from desktop
+  * Removed ppp from desktop
+  * Removed software-properties-gtk from desktop
+  * Removed usb-modeswitch from desktop
+  * Removed xchat from desktop
+  * Moved abiword to desktop-recommends
+  * Moved ace-of-penguins to desktop-recommends
+  * Moved apport-gtk to desktop-recommends
+  * Moved audacious to desktop-recommends
+  * Moved audacious-plugins to desktop-recommends
+  * Moved chromium-browser to desktop-recommends [amd64 armel i386]
+  * Moved galculator to desktop-recommends
+  * Moved gnome-disk-utility to desktop-recommends
+  * Moved gnome-mplayer to desktop-recommends
+  * Moved gnome-time-admin to desktop-recommends
+  * Moved gnumeric to desktop-recommends
+  * Moved gucharmap to desktop-recommends
+  * Moved guvcview to desktop-recommends
+  * Moved hardinfo to desktop-recommends
+  * Moved jockey-gtk to desktop-recommends
+  * Moved lxappearance to desktop-recommends
+  * Moved lxappearance-obconf to desktop-recommends
+  * Moved lxinput to desktop-recommends
+  * Moved lxpanel-indicator-applet-plugin to desktop-recommends
+  * Moved lxrandr to desktop-recommends
+  * Moved lxsession-edit to desktop-recommends
+  * Moved lxshortcut to desktop-recommends
+  * Moved lxtask to desktop-recommends
+  * Moved lzma to desktop-recommends
+  * Moved mtpaint to desktop-recommends
+  * Moved ntp to desktop-recommends
+  * Moved nvidia-common to desktop-recommends [amd64 i386]
+  * Moved obconf to desktop-recommends
+  * Moved osmo to desktop-recommends
+  * Moved pidgin to desktop-recommends
+  * Moved simple-scan to desktop-recommends
+  * Moved sylpheed to desktop-recommends
+  * Moved sylpheed-doc to desktop-recommends
+  * Moved sylpheed-i18n to desktop-recommends
+  * Moved sylpheed-plugins to desktop-recommends
+  * Moved transmission to desktop-recommends
+  * Moved ttf-indic-fonts-core to desktop-recommends
+  * Moved ttf-kacst-one to desktop-recommends
+  * Moved ttf-khmeros-core to desktop-recommends
+  * Moved ttf-lao to desktop-recommends
+  * Moved ttf-liberation to desktop-recommends
+  * Moved ttf-punjabi-fonts to desktop-recommends
+  * Moved ttf-takao-pgothic to desktop-recommends
+  * Moved ttf-thai-tlwg to desktop-recommends
+  * Moved ttf-ubuntu-font-family to desktop-recommends
+  * Moved ttf-unfonts-core to desktop-recommends
+  * Moved ttf-wqy-microhei to desktop-recommends
+  * Moved unzip to desktop-recommends
+  * Moved xfburn to desktop-recommends
+  * Moved xpad to desktop-recommends
+  * Moved xscreensaver to desktop-recommends
+  * Moved zip to desktop-recommends
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Fri, 08 Jul 2011 21:25:25 +0200
+
+lubuntu-meta (0.24) natty; urgency=low
+
+  * Refreshed dependencies
+  * Removed icedtea-plugin from desktop until bug #766559 is fixed.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 25 Apr 2011 20:57:54 +0200
+
+lubuntu-meta (0.23) natty; urgency=low
+
+  * Refreshed dependencies
+  * Added gnome-time-admin to desktop
+  * Added guvcview to desktop
+  * Added mobile-broadband-provider-info to desktop
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sat, 02 Apr 2011 22:03:57 +0200
+
+lubuntu-meta (0.22) natty; urgency=low
+
+  * Refreshed dependencies
+  * Added gnumeric-doc to desktop
+  * Added gucharmap to desktop
+  * Added language-selector-gnome to desktop
+  * Added lxkeymap to desktop
+  * Added pidgin-libnotify to desktop
+  * Added sylpheed-doc to desktop (LP: #725267)
+  * Added ttf-indic-fonts-core to desktop
+  * Added ttf-kacst-one to desktop
+  * Added ttf-khmeros-core to desktop
+  * Added ttf-lao to desktop
+  * Added ttf-punjabi-fonts to desktop
+  * Added ttf-takao-pgothic to desktop
+  * Added ttf-thai-tlwg to desktop
+  * Removed language-selector from desktop
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 28 Feb 2011 01:08:58 +0100
+
+lubuntu-meta (0.21) natty; urgency=low
+
+  * Refreshed dependencies
+  * Added gnome-keyring to desktop
+  * Added plymouth-theme-lubuntu-text to core
+  * Added usb-modeswitch to desktop
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 21 Feb 2011 01:57:50 +0100
+
+lubuntu-meta (0.20) natty; urgency=low
+
+  * Refreshed dependencies
+  * Added icedtea-plugin to desktop [armel]
+  * Added lxappearance-obconf to desktop
+  * Added sylpheed-plugins to desktop
+  * Removed bcmwl-modaliases from desktop [amd64 i386]
+  * Removed fglrx-modaliases from desktop [amd64 i386]
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 27 Jan 2011 20:06:19 +0100
+
+lubuntu-meta (0.19) natty; urgency=low
+
+  * Switch to natty.
+  * Refreshed dependencies
+  * Added gecko-mediaplayer to desktop
+  * Added icedtea-plugin to desktop [amd64 i386 powerpc]
+  * Removed powernowd from desktop-recommends
+  * Added gvfs-backends to desktop (LP: #675212)
+  * Added audacious to desktop
+  * Added audacious-plugins to desktop
+  * Added file-roller to desktop
+  * Added lzma to desktop
+  * Removed aqualung from desktop
+  * Removed cheese from desktop
+  * Removed xarchiver from desktop
+  * Removed xdg-utils from desktop
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 02 Dec 2010 23:43:18 +0100
+
+lubuntu-meta (0.18) maverick; urgency=low
+
+  * Refreshed dependencies
+  * Added lxpanel-indicator-applet-plugin to desktop
+  * Added ttf-ubuntu-font-family to desktop
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 03 Oct 2010 17:27:09 +0200
+
+lubuntu-meta (0.17) maverick; urgency=low
+
+  * Remove support for ia64 and sparc.
+  * Refreshed dependencies
+  * Added plymouth-theme-lubuntu-logo to core
+  * Removed lubuntu-plymouth-theme from core
+  * Added ubuntu-extras-keyring to desktop
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 29 Sep 2010 00:51:44 +0200
+
+lubuntu-meta (0.16) maverick; urgency=low
+
+  * Refreshed dependencies
+  * Added ace-of-penguins to desktop
+  * Added lubuntu-core to desktop
+  * Removed pm-utils-powersave-policy from desktop
+  * Added evince to desktop
+  * Removed epdfview from desktop
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 29 Jul 2010 23:47:21 +0200
+
+lubuntu-meta (0.15) maverick; urgency=low
+
+  * Add a new binary (lubuntu-core) for installing only core packages
+    (LP: #529593).
+  * Refreshed dependencies
+  * Removed dbus-x11 from desktop
+  * Removed lubuntu-artwork from desktop
+  * Removed lubuntu-default-settings from desktop
+  * Removed lubuntu-plymouth-theme from desktop
+  * Removed lxpanel from desktop
+  * Removed lxsession from desktop
+  * Removed openbox from desktop
+  * Removed pcmanfm from desktop
+  * Removed xorg from desktop
+  * Removed xserver-xorg-input-all from desktop
+  * Removed xserver-xorg-input-evtouch from desktop-recommends
+  * Added pcmciautils to desktop (LP: #584157)
+  * Added update-notifier to desktop
+  * Added xpad to desktop
+  * Removed parcellite from desktop
+  * Removed pyneighborhood from desktop
+  * Added lxtask to desktop
+  * Removed xfce4-taskmanager from desktop
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 27 Jun 2010 20:28:19 +0200
+
+lubuntu-meta (0.14) maverick; urgency=low
+
+  * Refreshed dependencies
+  * Added apport-gtk to desktop
+  * Added chromium-browser-l10n to desktop
+  * Added bcmwl-modaliases to desktop [amd64 i386]
+  * Added fglrx-modaliases to desktop [amd64 i386]
+  * Added nvidia-common to desktop [amd64 i386]
+  * Added gvfs-fuse to desktop
+  * Added modemmanager to desktop
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Fri, 28 May 2010 21:40:29 +0200
+
+lubuntu-meta (0.13) lucid; urgency=low
+
+  * Refreshed dependencies
+  * Added simple-scan to desktop
+  * Added gnome-disk-utility to desktop
+  * Added ttf-liberation to desktop
+  * Added ttf-unfonts-core to desktop
+  * Added ttf-wqy-microhei to desktop
+  * Removed mplayer from desktop
+  * Added policykit-desktop-privileges to desktop
+  * Added unzip to desktop
+  * Added zip to desktop
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 31 Mar 2010 23:35:56 +0200
+
+lubuntu-meta (0.12) lucid; urgency=low
+
+  * Refreshed dependencies
+  * Added gdebi to desktop
+  * Added lubuntu-plymouth-theme to desktop
+  * Removed lxde-icon-theme from desktop
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 01 Mar 2010 01:20:53 +0100
+
+lubuntu-meta (0.11) lucid; urgency=low
+
+  * Refreshed dependencies
+  * Added chromium-browser to desktop [amd64 armel i386]
+  * Added cups-driver-gutenprint to desktop
+  * Added gnome-mplayer to desktop
+  * Added jockey-gtk to desktop
+  * Added lxdm to desktop [armel ia64 powerpc sparc]
+  * Added lxlauncher to desktop
+  * Added network-manager-gnome to desktop
+  * Added ntp to desktop
+  * Removed firefox from desktop
+  * Removed gnash from desktop
+  * Removed mozilla-plugin-gnash from desktop
+  * Removed smplayer from desktop-recommends
+  * Removed wicd from desktop
+  * Moved mplayer to desktop
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 17 Feb 2010 20:56:00 +0100
+
+lubuntu-meta (0.10) lucid; urgency=low
+
+  * Refreshed dependencies
+  * Added mozilla-plugin-gnash to desktop
+  * Added pm-utils to desktop
+  * Added pm-utils-powersave-policy to desktop
+  * Added scrot to desktop
+  * Added system-config-printer-gnome to desktop
+  * Removed bluetooth from desktop
+  * Removed language-pack-en from desktop
+  * Removed gdm from desktop
+  * Added lxdm to desktop
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 24 Jan 2010 20:08:52 +0100
+
+lubuntu-meta (0.9) lucid; urgency=low
+
+  * Remove lpia architecture.
+  * Refreshed dependencies
+  * Added hardinfo to desktop
+  * Added language-selector to desktop
+  * Added osmo to desktop
+  * Added parcellite to desktop
+  * Added software-properties-gtk to desktop
+  * Added xfce4-taskmanager to desktop
+  * Moved xserver-xorg-input-evtouch to desktop-recommends
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 14 Dec 2009 21:37:19 +0100
+
+lubuntu-meta (0.8) lucid; urgency=low
+
+  * Switch to Lucid in update.cfg.
+  * Refreshed dependencies
+  * Added epdfview to desktop
+  * Added lubuntu-artwork to desktop
+  * Added lubuntu-default-settings to desktop
+  * Added lxpanel to desktop
+  * Added lxsession to desktop
+  * Added openbox to desktop
+  * Added pcmanfm to desktop
+  * Added sylpheed-i18n to desktop
+  * Added xdg-user-dirs to desktop
+  * Added xdg-utils to desktop
+  * Removed evince from desktop
+  * Removed lxde-core from desktop
+  * Removed gstreamer0.10-plugins-base from desktop
+  * Removed gstreamer0.10-plugins-good from desktop
+  * Removed gstreamer0.10-pulseaudio from desktop
+  * Removed gstreamer0.10-x from desktop
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sat, 28 Nov 2009 00:57:22 +0100
+
+lubuntu-meta (0.7.1) karmic; urgency=low
+
+  * Also add the new architectures in debian/control
+
+ -- Scott Kitterman <scott@kitterman.com>  Wed, 07 Oct 2009 21:55:40 -0400
+
+lubuntu-meta (0.7) karmic; urgency=low
+
+  * update.cfg: add amd64. sparc, and ia64; LP: #434614.
+
+ -- Loïc Minier <loic.minier@ubuntu.com>  Tue, 06 Oct 2009 23:56:41 +0200
+
+lubuntu-meta (0.6) karmic; urgency=low
+
+  * Use ~lubuntu-desktop/ubuntu-seeds instead of ~lubuntu-desktop/+junk for
+    seed_base and separate seed bases with spaces instead of commas.
+  * Refreshed dependencies
+  * Added gksu to desktop
+
+ -- Loïc Minier <loic.minier@ubuntu.com>  Tue, 06 Oct 2009 16:40:35 +0200
+
+lubuntu-meta (0.5) karmic; urgency=low
+
+  * Refreshed dependencies (LP: #432664)
+  * Removed ubiquity-frontend-gtk from desktop - only for install seeds.
+  * Moved mplayer to desktop-recommends
+  * Moved smplayer to desktop-recommends
+  * Added lxde-icon-theme to desktop
+  * Add missing copyright information (LP: #429149)
+
+ -- David Sugar <david.sugar@canonical.com>  Thu, 17 Sep 2009 15:52:01 -0400
+
+lubuntu-meta (0.4) karmic; urgency=low
+
+  * Convert to use dh7 and germinate helper
+   - debian/control: 
+    + bump debhelper build-depends to >= 7.0.50
+    + bump germinate build-depends to >= 1.18
+    + Use ${germinate:Depends} and ${germinate:Recommends}
+   - debian/rules:
+    + Use tiny debian/rules with germinate support
+   - debian/compat
+    + Bump compat level to 7.
+  * update.cfg: 
+   - Add multiverse to bring mplayer.
+   - Rename seed to desktop.
+  * debian/rules:
+   - Skip dh_auto_build to avoid update during build time.
+  * Refreshed dependencies
+  * Added abiword to desktop
+  * Added gnumeric to desktop
+  * Added mtpaint to desktop
+  * Added sylpheed to desktop
+  * Added ubiquity-frontend-gtk to desktop
+  * Added wicd to desktop
+  * Added gpicview to desktop
+  * Added lxappearance to desktop
+  * Added lxde-core to desktop
+  * Added lxinput to desktop
+  * Added lxrandr to desktop
+  * Added lxsession-edit to desktop
+  * Added lxshortcut to desktop
+  * Added lxterminal to desktop
+  * Added obconf to desktop
+  * Added x11-utils to desktop
+  * Added xarchiver to desktop
+  * Removed claws-mail from desktop
+  * Removed network-manager-gnome from desktop
+  * Removed usplash from desktop
+  * Removed gthumb from desktop
+  * Removed lxde from desktop
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Tue, 08 Sep 2009 23:01:52 +0200
+
+lubuntu-meta (0.3) karmic; urgency=low
+
+  * Merged changes from Martin-Éric Racine:
+    - Fixed a number of Lintian errors.
+    - Sanitized debian/copyright and debian/rules.
+    - Bump Standards-Version to 3.8.3 (no change required).
+  * Refreshed dependencies
+  * Added gnome-bluetooth to lubuntu
+  * Added gthumb to lubuntu
+  * Removed bluez-gnome from lubuntu
+  * Removed gstreamer0.10-alsa from lubuntu
+  * Removed mirage from lubuntu
+  * Removed sysinfo from lubuntu
+
+ -- David Sugar <david.sugar@canonical.com>  Sun, 30 Aug 2009 13:00:28 +0300
+
+lubuntu-meta (0.2) karmic; urgency=low
+
+  * Refreshed dependencies
+  * Removed acpi from lubuntu [i386 lpia]
+  * Removed acpi-support from lubuntu [i386 lpia]
+  * Removed acpid from lubuntu [i386 lpia]
+  * Removed grub from lubuntu [i386 lpia]
+  * Removed grub-ieee1275 from lubuntu [powerpc]
+
+ -- David Sugar <david.sugar@canonical.com>  Thu, 13 Aug 2009 12:02:58 -0400
+
+lubuntu-meta (0.1) karmic; urgency=low
+
+  * Initial release.
+
+ -- David Sugar <david.sugar@canonical.com>  Fri, 07 Aug 2009 06:44:26 -0400
