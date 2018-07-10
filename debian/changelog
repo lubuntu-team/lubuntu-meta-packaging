@@ -2,6 +2,7 @@ lubuntu-meta (1.5) UNRELEASED; urgency=medium
 
   * Add Vcs-* lines to reflect importing of the packaging into Git.
   * Remove gilir from Uploaders as he is no longer a member of the team.
+  * Run wrap-and-sort.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 09 Jul 2018 19:23:38 -0500
 
