@@ -7,11 +7,9 @@ ark
 bc
 bluedevil
 ca-certificates
-calibre
 compton-conf
 dbus-x11
 desktop-file-utils
-dmz-cursor-theme
 falkon
 fcitx
 fcitx-frontend-qt5
@@ -75,6 +73,7 @@ quassel
 rfkill
 screengrab
 sddm
+sddm-theme-lubuntu
 skanlite
 smplayer
 smplayer-l10n
@@ -88,6 +87,7 @@ ubuntu-mono
 ubuntu-release-upgrader-qt
 unzip
 usb-modeswitch
+vim
 whoopsie
 wireless-tools
 wpasupplicant

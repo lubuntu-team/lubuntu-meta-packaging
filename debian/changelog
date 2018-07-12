@@ -1,3 +1,13 @@
+lubuntu-meta (1.6) cosmic; urgency=medium
+
+  * Refreshed dependencies
+  * Added sddm-theme-lubuntu to desktop
+  * Added vim to desktop
+  * Removed calibre from desktop
+  * Removed dmz-cursor-theme from desktop
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 12 Jul 2018 00:38:55 -0500
+
 lubuntu-meta (1.5) cosmic; urgency=medium
 
   * Add Vcs-* lines to reflect importing of the packaging into Git.
