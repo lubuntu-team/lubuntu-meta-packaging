@@ -6,6 +6,7 @@ arc-theme
 ark
 bc
 bluedevil
+breeze-cursor-theme
 ca-certificates
 compton-conf
 dbus-x11
@@ -79,7 +80,6 @@ smplayer
 smplayer-l10n
 smplayer-themes
 smtube
-software-properties-kde
 spice-vdagent
 transmission-qt
 ubuntu-drivers-common
@@ -87,7 +87,6 @@ ubuntu-mono
 ubuntu-release-upgrader-qt
 unzip
 usb-modeswitch
-vim
 whoopsie
 wireless-tools
 wpasupplicant

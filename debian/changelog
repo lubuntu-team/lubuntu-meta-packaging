@@ -1,3 +1,13 @@
+lubuntu-meta (1.7) cosmic; urgency=medium
+
+  * Refreshed dependencies
+  * Added breeze-cursor-theme to desktop
+  * Added zsync to desktop-recommends
+  * Removed software-properties-kde from desktop
+  * Moved vim to desktop-recommends
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 09 Aug 2018 18:33:11 -0500
+
 lubuntu-meta (1.6) cosmic; urgency=medium
 
   * Refreshed dependencies
