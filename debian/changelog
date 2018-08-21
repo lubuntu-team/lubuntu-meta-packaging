@@ -1,3 +1,38 @@
+lubuntu-meta (1.8) cosmic; urgency=medium
+
+  * Refreshed dependencies
+  * Added fwupd-signed to desktop-recommends [amd64 arm64 armhf i386]
+  * Removed fwupdate-signed from desktop-recommends [amd64 arm64 armhf
+    i386]
+  * Moved 2048-qt to desktop-recommends
+  * Moved ark to desktop-recommends
+  * Moved compton-conf to desktop-recommends
+  * Moved falkon to desktop-recommends [amd64 arm64 armhf i386]
+  * Moved featherpad to desktop-recommends
+  * Moved fwupdate to desktop [amd64 arm64 armhf i386]
+  * Moved kcalc to desktop-recommends
+  * Moved libreoffice-calc to desktop-recommends
+  * Moved libreoffice-impress to desktop-recommends
+  * Moved libreoffice-kde to desktop-recommends
+  * Moved libreoffice-writer to desktop-recommends
+  * Moved muon to desktop-recommends
+  * Moved noblenote to desktop-recommends
+  * Moved nomacs to desktop-recommends
+  * Moved plasma-discover to desktop-recommends
+  * Moved qlipper to desktop-recommends
+  * Moved qpdfview to desktop-recommends
+  * Moved qps to desktop-recommends
+  * Moved qtpass to desktop-recommends
+  * Moved screengrab to desktop-recommends
+  * Moved skanlite to desktop-recommends
+  * Moved smplayer to desktop-recommends
+  * Moved smplayer-l10n to desktop-recommends
+  * Moved smplayer-themes to desktop-recommends
+  * Moved smtube to desktop-recommends
+  * Moved transmission-qt to desktop-recommends
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Mon, 20 Aug 2018 22:25:35 -0700
+
 lubuntu-meta (1.7) cosmic; urgency=medium
 
   * Refreshed dependencies
