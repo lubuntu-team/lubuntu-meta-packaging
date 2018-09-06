@@ -1,3 +1,24 @@
+lubuntu-meta (1.9) cosmic; urgency=medium
+
+  * Refreshed dependencies
+  * Added libreoffice-kde5 to desktop-recommends
+  * Added software-properties-qt to desktop
+  * Added vlc to desktop-recommends
+  * Added vlc-plugin-access-extra to desktop-recommends
+  * Added vlc-plugin-notify to desktop-recommends
+  * Added vlc-plugin-samba to desktop-recommends
+  * Added vlc-plugin-skins2 to desktop-recommends
+  * Added vlc-plugin-svg to desktop-recommends
+  * Added vlc-plugin-video-splitter to desktop-recommends
+  * Removed libreoffice-kde from desktop-recommends
+  * Removed nomacs from desktop-recommends
+  * Removed smplayer from desktop-recommends
+  * Removed smplayer-l10n from desktop-recommends
+  * Removed smplayer-themes from desktop-recommends
+  * Removed smtube from desktop-recommends
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 06 Sep 2018 17:31:45 -0500
+
 lubuntu-meta (1.8) cosmic; urgency=medium
 
   * Refreshed dependencies

@@ -56,6 +56,7 @@ quassel
 rfkill
 sddm
 sddm-theme-lubuntu
+software-properties-qt
 spice-vdagent
 ubuntu-drivers-common
 ubuntu-mono
