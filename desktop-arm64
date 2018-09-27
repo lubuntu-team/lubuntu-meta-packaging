@@ -51,6 +51,7 @@ plymouth-theme-lubuntu-text
 printer-driver-gutenprint
 printer-driver-pnm2ppa
 pulseaudio
+pulseaudio-module-bluetooth
 qterminal
 qttranslations5-l10n
 quassel
