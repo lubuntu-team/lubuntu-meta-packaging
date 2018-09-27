@@ -1,3 +1,10 @@
+lubuntu-meta (1.11) cosmic; urgency=medium
+
+  * Refreshed dependencies
+  * Added kde-style-breeze to desktop
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 27 Sep 2018 14:44:34 -0500
+
 lubuntu-meta (1.10) cosmic; urgency=medium
 
   * Refreshed dependencies

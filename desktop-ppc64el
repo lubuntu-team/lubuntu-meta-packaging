@@ -20,6 +20,7 @@ ghostscript-x
 gvfs-backends
 gvfs-fuse
 inputattach
+kde-style-breeze
 libfm-modules
 libmtp-runtime
 libqt5svg5
