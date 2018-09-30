@@ -1,3 +1,10 @@
+lubuntu-meta (1.12) cosmic; urgency=medium
+
+  * Refreshed dependencies
+  * Removed screengrab from desktop-recommends
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 29 Sep 2018 20:45:04 -0500
+
 lubuntu-meta (1.11) cosmic; urgency=medium
 
   * Refreshed dependencies
