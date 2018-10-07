@@ -9,6 +9,7 @@ cups-bsd
 cups-client
 cups-filters
 featherpad
+firefox
 fonts-indic
 fonts-kacst-one
 fonts-khmeros-core
@@ -36,6 +37,7 @@ muon
 neofetch
 noblenote
 packagekit
+partitionmanager
 pastebinit
 pcmciautils
 plasma-discover

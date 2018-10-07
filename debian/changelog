@@ -1,3 +1,12 @@
+lubuntu-meta (1.13) cosmic; urgency=medium
+
+  * Refreshed dependencies
+  * Added firefox to desktop-recommends
+  * Added partitionmanager to desktop-recommends
+  * Removed falkon from desktop-recommends [amd64 arm64 armhf i386]
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 06 Oct 2018 18:11:27 -0500
+
 lubuntu-meta (1.12) cosmic; urgency=medium
 
   * Refreshed dependencies
