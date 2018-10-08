@@ -30,8 +30,10 @@ kerneloops
 laptop-detect
 libnss-mdns
 libreoffice-calc
+libreoffice-gtk3
 libreoffice-impress
 libreoffice-kde5
+libreoffice-style-breeze
 libreoffice-writer
 muon
 neofetch

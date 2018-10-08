@@ -1,3 +1,11 @@
+lubuntu-meta (1.14) cosmic; urgency=medium
+
+  * Refreshed dependencies
+  * Added libreoffice-gtk3 to desktop-recommends
+  * Added libreoffice-style-breeze to desktop-recommends
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 07 Oct 2018 19:02:59 -0500
+
 lubuntu-meta (1.13) cosmic; urgency=medium
 
   * Refreshed dependencies
