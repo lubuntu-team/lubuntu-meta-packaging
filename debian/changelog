@@ -1,3 +1,9 @@
+lubuntu-meta (1.16) disco; urgency=medium
+
+  * Welcome to the Disco Dingo!
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 01 Nov 2018 20:38:59 -0500
+
 lubuntu-meta (1.15) cosmic; urgency=medium
 
   * Refreshed dependencies
