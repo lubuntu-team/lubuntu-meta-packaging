@@ -1,3 +1,9 @@
+lubuntu-meta (19.04.1) UNRELEASED; urgency=medium
+
+  * Change to a release-based versioning scheme.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 13 Apr 2019 14:49:51 -0500
+
 lubuntu-meta (1.16) disco; urgency=medium
 
   * Welcome to the Disco Dingo!
