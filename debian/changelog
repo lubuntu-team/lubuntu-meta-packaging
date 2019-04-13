@@ -1,8 +1,14 @@
 lubuntu-meta (19.04.1) UNRELEASED; urgency=medium
 
   * Change to a release-based versioning scheme.
+  * Refreshed dependencies
+  * Added lxqt-notificationd to desktop
+  * Added python3-launchpadlib to desktop
+  * Added qapt-deb-installer to desktop-recommends
+  * Removed libreoffice-kde5 from desktop-recommends
+  * Removed ubuntu-report from desktop-recommends
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 13 Apr 2019 14:49:51 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 13 Apr 2019 14:54:21 -0500
 
 lubuntu-meta (1.16) disco; urgency=medium
 

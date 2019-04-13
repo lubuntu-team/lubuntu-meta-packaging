@@ -31,6 +31,7 @@ lubuntu-default-settings
 lxqt-about
 lxqt-admin
 lxqt-core
+lxqt-notificationd
 lxqt-openssh-askpass
 lxqt-powermanagement
 lxqt-sudo
@@ -52,6 +53,7 @@ printer-driver-gutenprint
 printer-driver-pnm2ppa
 pulseaudio
 pulseaudio-module-bluetooth
+python3-launchpadlib
 qterminal
 qttranslations5-l10n
 rfkill

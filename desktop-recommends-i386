@@ -34,7 +34,6 @@ libnss-mdns
 libreoffice-calc
 libreoffice-gtk3
 libreoffice-impress
-libreoffice-kde5
 libreoffice-style-breeze
 libreoffice-writer
 memtest86+
@@ -56,6 +55,7 @@ printer-driver-ptouch
 printer-driver-pxljr
 printer-driver-sag-gdi
 printer-driver-splix
+qapt-deb-installer
 qlipper
 qpdfview
 qps
@@ -67,7 +67,6 @@ transmission-qt
 trojita
 ttf-ancient-fonts-symbola
 ttf-ubuntu-font-family
-ubuntu-report
 vim
 vlc
 vlc-plugin-access-extra
