@@ -1,8 +1,8 @@
-lubuntu-meta (19.10.1) UNRELEASED; urgency=medium
+lubuntu-meta (19.10.1) eoan; urgency=medium
 
   * Welcome to the Eoan EANIMAL!
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 19 Apr 2019 19:07:53 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 19 Apr 2019 19:09:01 -0500
 
 lubuntu-meta (19.04.1) disco; urgency=medium
 
