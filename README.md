@@ -6,3 +6,6 @@ The result will be based on the published seed lists, filtered by:
   to ubuntu-base)
 
 Dependencies are `debootstrap` and `germinate`.
+
+The changelog will be automatically updated, but make sure to run
+`dch -r` to change the distribution from `UNRELEASED`.
