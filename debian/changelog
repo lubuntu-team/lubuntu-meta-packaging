@@ -1,3 +1,11 @@
+lubuntu-meta (19.10.2) UNRELEASED; urgency=medium
+
+  * Refreshed dependencies
+  * Added k3b to desktop-recommends
+  * Added network-manager-gnome to desktop
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Wed, 26 Jun 2019 11:45:56 -0700
+
 lubuntu-meta (19.10.1) eoan; urgency=medium
 
   * Welcome to the Eoan EANIMAL!
