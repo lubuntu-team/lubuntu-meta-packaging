@@ -1,9 +1,9 @@
-lubuntu-meta (19.10.4) UNRELEASED; urgency=medium
+lubuntu-meta (19.10.4) eoan; urgency=medium
 
-  * Refreshed dependencies
-  * Removed fcitx-ui-qimpanel from desktop
+  * Refreshed dependencies.
+  * Removed fcitx-ui-qimpanel from desktop.
 
- -- Walter Lapchynski <wxl@ubuntu.com>  Mon, 19 Aug 2019 20:35:16 -0700
+ -- Walter Lapchynski <wxl@ubuntu.com>  Mon, 19 Aug 2019 20:38:00 -0700
 
 lubuntu-meta (19.10.3) eoan; urgency=medium
 
