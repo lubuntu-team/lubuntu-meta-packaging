@@ -10,7 +10,6 @@ dbus-x11
 desktop-file-utils
 fcitx
 fcitx-frontend-qt5
-fcitx-ui-qimpanel
 ffmpegthumbnailer
 fonts-dejavu-core
 fonts-freefont-ttf
