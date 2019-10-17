@@ -1,3 +1,10 @@
+lubuntu-meta (19.10.6) eoan; urgency=medium
+
+  * Refreshed dependencies
+  * Removed fwupdate from desktop [amd64 arm64 armhf i386] (Fixes: #1841744)
+
+ -- Mario Limonciello <mario.limonciello@dell.com>  Thu, 29 Aug 2019 14:29:27 -0500
+
 lubuntu-meta (19.10.5) eoan; urgency=medium
 
   * Updated README.
