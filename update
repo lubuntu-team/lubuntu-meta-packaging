@@ -11,3 +11,5 @@ if ! which debootstrap >/dev/null; then
 fi
 
 exec germinate-update-metapackage --vcs
+
+dch -r \"\"

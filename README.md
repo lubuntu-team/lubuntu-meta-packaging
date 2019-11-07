@@ -10,7 +10,6 @@ The result will be based on the published seed lists, filtered by:
 
 Dependencies are `debootstrap` and `germinate`.
 
-The changelog will be automatically updated, but make sure to run
-`dch -r ""` to change the distribution from `UNRELEASED`.
+The changelog will be automatically updated.
 
 [1]: https://phab.lubuntu.me/source/seed/
