@@ -1,3 +1,12 @@
+lubuntu-meta (20.04.2) focal; urgency=medium
+
+  * Refreshed dependencies
+  * Added xscreensaver-data-extra to desktop
+  * Added xscreensaver-gl to desktop
+  * Added xscreensaver-gl-extra to desktop
+
+ -- Raman Sarda <theloudspeaker@lubuntu.me>  Thu, 14 Nov 2019 02:17:06 +0530
+
 lubuntu-meta (20.04.1) focal; urgency=medium
 
   * Refreshed dependencies

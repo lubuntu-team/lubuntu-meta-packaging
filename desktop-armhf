@@ -76,5 +76,8 @@ xdg-user-dirs
 xkb-data
 xorg
 xscreensaver
+xscreensaver-data-extra
+xscreensaver-gl
+xscreensaver-gl-extra
 xz-utils
 zip
