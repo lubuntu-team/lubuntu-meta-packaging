@@ -1,3 +1,9 @@
+lubuntu-meta (20.04.3) focal; urgency=medium
+
+  * update.cfg: Stop updating for i386 to avoid unnecessary noise.
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Tue, 10 Dec 2019 14:50:50 -0800
+
 lubuntu-meta (20.04.2) focal; urgency=medium
 
   * Refreshed dependencies
