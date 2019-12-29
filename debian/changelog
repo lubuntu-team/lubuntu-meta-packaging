@@ -1,3 +1,11 @@
+lubuntu-meta (20.04.4) focal; urgency=medium
+
+  * Refreshed dependencies
+  * Added lubuntu-grub-theme to desktop
+  * Added xfonts-efont-unicode to desktop
+
+ -- Raman Sarda <theloudspeaker@lubuntu.me>  Wed, 25 Dec 2019 16:43:46 +0530
+
 lubuntu-meta (20.04.3) focal; urgency=medium
 
   * update.cfg: Stop updating for i386 to avoid unnecessary noise.
