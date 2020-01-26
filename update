@@ -12,4 +12,4 @@ fi
 
 exec germinate-update-metapackage --vcs
 
-dch -r \"\"
+dch -r \\"\\"
