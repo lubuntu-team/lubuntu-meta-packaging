@@ -1,3 +1,10 @@
+lubuntu-meta (20.04.5) focal; urgency=medium
+
+  * Refreshed dependencies
+  * Added lxqt-policykit to desktop
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Sun, 26 Jan 2020 14:54:43 -0800
+
 lubuntu-meta (20.04.4) focal; urgency=medium
 
   * Refreshed dependencies

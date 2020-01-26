@@ -34,6 +34,7 @@ lxqt-admin
 lxqt-core
 lxqt-notificationd
 lxqt-openssh-askpass
+lxqt-policykit
 lxqt-powermanagement
 lxqt-sudo
 mobile-broadband-provider-info
