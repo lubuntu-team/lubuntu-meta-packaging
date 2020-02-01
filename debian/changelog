@@ -1,3 +1,10 @@
+lubuntu-meta (20.04.6) focal; urgency=medium
+
+  * Refreshed dependencies
+  * Added libreoffice-qt5 to desktop-recommends
+
+ -- Dan Simmons <kc2bez@lubuntu.me>  Sat, 01 Feb 2020 13:51:53 -0500
+
 lubuntu-meta (20.04.5) focal; urgency=medium
 
   * Refreshed dependencies
