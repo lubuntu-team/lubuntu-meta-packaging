@@ -1,3 +1,12 @@
+lubuntu-meta (20.04.7) focal; urgency=medium
+
+  * Refreshed dependencies
+  * Removed lubuntu-grub-theme from desktop
+  * Removed xfonts-efont-unicode from desktop
+  * Added packages for the riscv64 architecture
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 19 Apr 2020 18:01:49 -0500
+
 lubuntu-meta (20.04.6) focal; urgency=medium
 
   * Refreshed dependencies

@@ -47,7 +47,6 @@ openprinting-ppds
 oxygen-icon-theme
 papirus-icon-theme
 pavucontrol-qt
-pcmanfm-qt
 pinentry-qt
 plymouth-theme-lubuntu-logo
 plymouth-theme-lubuntu-text
@@ -63,11 +62,9 @@ sddm
 sddm-theme-lubuntu
 software-properties-qt
 spice-vdagent
-ubuntu-drivers-common
 ubuntu-mono
 ubuntu-release-upgrader-qt
 unzip
-usb-creator-kde
 usb-modeswitch
 whoopsie
 wireless-tools

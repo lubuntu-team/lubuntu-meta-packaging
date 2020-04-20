@@ -27,7 +27,6 @@ libsasl2-modules
 libu2f-udev
 lubuntu-artwork
 lubuntu-default-settings
-lubuntu-grub-theme
 lubuntu-update-notifier
 lxqt-about
 lxqt-admin
@@ -75,7 +74,6 @@ wpasupplicant
 wvdial
 x11-utils
 xdg-user-dirs
-xfonts-efont-unicode
 xkb-data
 xorg
 xscreensaver
