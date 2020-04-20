@@ -1,3 +1,11 @@
+lubuntu-meta (20.04.8) focal; urgency=medium
+
+  * Refreshed dependencies
+  * Added hplip to desktop-recommends [riscv64]
+  * Added xfonts-efont-unicode to desktop
+
+ -- Raman Sarda <theloudspeaker@lubuntu.me>  Tue, 21 Apr 2020 00:53:24 +0530
+
 lubuntu-meta (20.04.7) focal; urgency=medium
 
   * Refreshed dependencies
