@@ -1,3 +1,10 @@
+lubuntu-meta (20.04.7) focal; urgency=medium
+
+  * Refreshed dependencies
+  * Removed lubuntu-grub-theme from desktop
+
+ -- Raman Sarda <theloudspeaker@lubuntu.me>  Mon, 20 Apr 2020 14:43:02 +0530
+
 lubuntu-meta (20.04.6) focal; urgency=medium
 
   * Refreshed dependencies
