@@ -8,6 +8,25 @@ Build-Depends: debhelper (>= 11), germinate (>= 1.18)
 Vcs-Browser: https://phab.lubuntu.me/source/lubuntu-meta/
 Vcs-Git: https://phab.lubuntu.me/source/lubuntu-meta.git
 
+Package: lubuntu-core
+Architecture: any
+Depends: ${germinate:Depends}, ${misc:Depends}
+Recommends: ${germinate:Recommends}
+Description: Lubuntu Core Desktop environment
+Description: Minimal core of Lubuntu
+ This metapackage depends on all of the packages in the Lubuntu core
+ system, that is a functional command-line system with the following
+ capabilities:
+ .
+  - Boot
+  - Detect hardware
+  - Connect to a network
+  - Install packages
+  - Perform basic diagnostics
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
+
 Package: lubuntu-desktop
 Architecture: any
 Depends: ${germinate:Depends}, ${misc:Depends}
