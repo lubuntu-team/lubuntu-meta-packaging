@@ -27,6 +27,7 @@ libsasl2-modules
 libu2f-udev
 lubuntu-artwork
 lubuntu-default-settings
+lubuntu-grub-theme
 lubuntu-update-notifier
 lxqt-about
 lxqt-admin
@@ -47,6 +48,7 @@ openprinting-ppds
 oxygen-icon-theme
 papirus-icon-theme
 pavucontrol-qt
+pcmanfm-qt
 pinentry-qt
 plymouth-theme-lubuntu-logo
 plymouth-theme-lubuntu-text

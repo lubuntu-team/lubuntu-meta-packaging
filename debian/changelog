@@ -1,3 +1,13 @@
+lubuntu-meta (20.10.1) groovy; urgency=medium
+
+  * Refreshed dependencies
+  * Added lubuntu-grub-theme to desktop
+  * Added pcmanfm-qt to desktop [riscv64]
+  * Added plasma-discover to desktop-recommends [riscv64]
+  * Added snapd to desktop-recommends [riscv64]
+
+ -- Raman Sarda <theloudspeaker@lubuntu.me>  Sun, 19 Jul 2020 03:36:44 +0530
+
 lubuntu-meta (20.04.8) focal; urgency=medium
 
   * Refreshed dependencies
