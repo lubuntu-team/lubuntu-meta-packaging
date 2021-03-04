@@ -64,9 +64,11 @@ sddm
 sddm-theme-lubuntu
 software-properties-qt
 spice-vdagent
+ubuntu-drivers-common
 ubuntu-mono
 ubuntu-release-upgrader-qt
 unzip
+usb-creator-kde
 usb-modeswitch
 whoopsie
 wireless-tools

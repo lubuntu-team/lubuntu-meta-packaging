@@ -1,6 +1,5 @@
 2048-qt
 acpi-support
-ark
 avahi-daemon
 bluez
 bluez-cups
@@ -38,6 +37,7 @@ libreoffice-impress
 libreoffice-qt5
 libreoffice-style-breeze
 libreoffice-writer
+lxqt-archiver
 memtest86+
 muon
 neofetch

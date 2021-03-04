@@ -1,3 +1,15 @@
+lubuntu-meta (21.04.1) hirsute; urgency=medium
+
+  * Updated tooling configuration for Hirsute.
+  * Added check for germinate in update script.
+  * Refreshed dependencies
+  * Added lxqt-archiver to desktop-recommends
+  * Added ubuntu-drivers-common to desktop [riscv64]
+  * Added usb-creator-kde to desktop [arm64 armhf ppc64el riscv64 s390x]
+  * Removed ark from desktop-recommends
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Thu, 04 Mar 2021 13:43:42 -0800
+
 lubuntu-meta (20.10.1) groovy; urgency=medium
 
   * Refreshed dependencies

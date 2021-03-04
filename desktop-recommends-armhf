@@ -1,5 +1,4 @@
 2048-qt
-ark
 avahi-daemon
 bluez
 bluez-cups
@@ -37,6 +36,7 @@ libreoffice-impress
 libreoffice-qt5
 libreoffice-style-breeze
 libreoffice-writer
+lxqt-archiver
 muon
 neofetch
 noblenote

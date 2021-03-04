@@ -1,5 +1,4 @@
 2048-qt
-ark
 avahi-daemon
 bluez
 bluez-cups
@@ -30,6 +29,7 @@ kerneloops
 laptop-detect
 libnss-mdns
 libreoffice-style-breeze
+lxqt-archiver
 muon
 neofetch
 noblenote
