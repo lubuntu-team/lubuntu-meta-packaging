@@ -1,5 +1,10 @@
 #! /bin/sh
 
+if ! which germinate >/dev/null; then
+	echo >&2 "Please install germinate."
+	exit 1
+fi
+
 if ! which dch >/dev/null; then
 	echo >&2 "Please install devscripts."
 	exit 1
