@@ -1,3 +1,15 @@
+lubuntu-meta (22.04.1) jammy; urgency=medium
+
+  * Refreshed dependencies
+  * Added language-selector-common to desktop
+  * Removed fcitx from desktop
+  * Removed fcitx-frontend-qt5 from desktop
+  * Removed k3b from desktop-recommends
+  * Removed trojita from desktop-recommends
+  * Removed xz-utils from desktop
+
+ -- Dan Simmons <kc2bez@lubuntu.me>  Sat, 15 Jan 2022 14:48:37 -0500
+
 lubuntu-meta (21.04.1) hirsute; urgency=medium
 
   * Updated tooling configuration for Hirsute.

@@ -8,8 +8,6 @@ breeze-cursor-theme
 ca-certificates
 dbus-x11
 desktop-file-utils
-fcitx
-fcitx-frontend-qt5
 ffmpegthumbnailer
 fonts-dejavu-core
 fonts-freefont-ttf
@@ -20,6 +18,7 @@ gvfs-backends
 gvfs-fuse
 inputattach
 kde-style-breeze
+language-selector-common
 libfm-modules
 libmtp-runtime
 libqt5svg5
@@ -83,5 +82,4 @@ xscreensaver
 xscreensaver-data-extra
 xscreensaver-gl
 xscreensaver-gl-extra
-xz-utils
 zip

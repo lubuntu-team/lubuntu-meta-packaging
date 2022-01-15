@@ -23,7 +23,6 @@ fonts-ubuntu
 fwupd
 hplip
 htop
-k3b
 kcalc
 kerneloops
 laptop-detect
@@ -58,7 +57,6 @@ screengrab
 skanlite
 snapd
 transmission-qt
-trojita
 ttf-ancient-fonts-symbola
 ttf-ubuntu-font-family
 vim
